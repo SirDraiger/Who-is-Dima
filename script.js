@@ -8,7 +8,7 @@ let song = new Audio();
 button.addEventListener('click', function() {
     console.log('Диман пивосос');
     answer.textContent = 'Диман пивосос'
-    fon.style.backgroundImage = "url(/img/pivo.jpg)";
+    fon.style.backgroundImage = "url(img/pivo.jpg)";
     fon.style.color = "black";
     photo.src = "img/dima.jpg";
     photo.style.height = "700px";
