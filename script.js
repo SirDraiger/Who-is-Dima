@@ -16,7 +16,7 @@ button.addEventListener('click', function() {
     button.style.border = "1px solid black";
     button.style.display = "none";
     question.style.display = "none";
-    song.src = 'song.mp3';
+    song.src = 'song/song.mp3';
     song.autoplay = true;
     song.loop = true;
 })
