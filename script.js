@@ -25,8 +25,6 @@ counter = 0;
 
 photo.addEventListener('click', function() {
     counter +=1;
-    console.log(counter);
-
     if (counter === 10) {
         alert('Поздравляю, ты нашёл пасхалку. Получай новый фоновый трек, под который ты сможешь раслабиться');
         song.src = 'song/song2.mp3';   
