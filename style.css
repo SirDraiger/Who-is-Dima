@@ -82,6 +82,7 @@ body {
     padding: 36px;
     text-align: center;
     background-repeat: inherit;
+    background-position: center top;
   }
 
   .fon {
