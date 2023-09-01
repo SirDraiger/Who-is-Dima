@@ -6,7 +6,6 @@ let question = document.querySelector('.question')
 let song = new Audio();
 
 button.addEventListener('click', function() {
-    console.log('Диман пивосос');
     answer.textContent = 'Диман пивосос'
     fon.style.backgroundImage = "url(img/pivo.jpg)";
     fon.style.color = "black";
@@ -19,4 +18,18 @@ button.addEventListener('click', function() {
     song.src = 'song/song.mp3';
     song.autoplay = true;
     song.loop = true;
+})
+
+
+counter = 0;
+
+photo.addEventListener('click', function() {
+    counter +=1;
+    console.log(counter);
+
+    if (counter === 10) {
+        alert('Поздравляю, ты нашёл пасхалку. Получай новый фоновый трек, под который ты сможешь раслабиться');
+        song.src = 'song/song2.mp3';   
+    } else {
+    }
 })
